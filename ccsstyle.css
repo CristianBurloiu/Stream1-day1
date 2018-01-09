@@ -1,0 +1,43 @@
+/* Main CSS */
+     body { height: 100%; }
+     #container{
+         border-radius: 50px;
+         background-color:  Green;
+         font-size: 0;
+         margin-right: auto;
+         margin-left: auto;
+         margin-bottom: auto;
+         margin-top: auto;
+         width: 960px;
+         padding-top: 175px;
+         position:relative;
+         
+         
+     } 
+     
+     /* Index CSS */
+     
+      .header{
+          border:1px solid black;
+          color: orange;
+          top: 0px;
+          left: px;
+          font-size: 20px;
+          position: relative;
+          z-index: 250;
+          
+      }
+      .footer{
+          border:1px solid blue;
+          position: fixed;
+          font-size: 20px;
+          background-color: rgba(125,150,220,0.5);
+          
+      }
+      .image{
+          position: relative;
+          top:100px;
+          bottom: 100px;    
+          left: 200px;
+          right: 100px;
+      }
